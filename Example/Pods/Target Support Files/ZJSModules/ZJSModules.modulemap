@@ -1,0 +1,6 @@
+framework module ZJSModules {
+  umbrella header "ZJSModules-umbrella.h"
+
+  export *
+  module * { export * }
+}
