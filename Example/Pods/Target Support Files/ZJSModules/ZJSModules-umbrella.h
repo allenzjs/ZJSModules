@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ZJSFlipEffectView.h"
+#import "ZJSModules.h"
 
 FOUNDATION_EXPORT double ZJSModulesVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZJSModulesVersionString[];
