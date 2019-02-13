@@ -80,8 +80,10 @@
     // 裁剪出上半部分和下半部分
     CGImageRef topTargetImageRef = CGImageCreateWithImageInRect(resultingImage.CGImage, CGRectMake(0, 0, resultingImage.size.width*resultingImage.scale, resultingImage.size.height/2.f*resultingImage.scale));
     UIImage *topTargetImage = [UIImage imageWithCGImage:topTargetImageRef scale:resultingImage.scale orientation:UIImageOrientationUp];
+    CGImageRelease(topTargetImageRef);
     CGImageRef bottomTargetImageRef = CGImageCreateWithImageInRect(resultingImage.CGImage, CGRectMake(0, resultingImage.size.height/2.f*resultingImage.scale, resultingImage.size.width*resultingImage.scale, resultingImage.size.height/2.f*resultingImage.scale));
     UIImage *bottomTargetImage = [UIImage imageWithCGImage:bottomTargetImageRef scale:resultingImage.scale orientation:UIImageOrientationUp];
+    CGImageRelease(bottomTargetImageRef);
     
     return @[topTargetImage, bottomTargetImage];
 }

@@ -1,5 +1,5 @@
 PODS:
-  - ZJSModules (0.1.0)
+  - ZJSModules (0.1.1)
 
 DEPENDENCIES:
   - ZJSModules (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZJSModules: 4a61d419622cb30d7a33c6ad9e2455d0660cb2f1
+  ZJSModules: 87f8181c5b28ee1a66d30b3011846a2254ac760c
 
 PODFILE CHECKSUM: 0402a68fd87b0407a593f9353391c912bf39b3fa
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0
