@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJSModules'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'some convenient modules for ios project.'
 
 # This description is used to generate tags and improve search results.
